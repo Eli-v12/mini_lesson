@@ -1,0 +1,25 @@
+<!-- index.wxml -->
+<view class="container">
+  <text>hello dadas 1</text>
+  <view hover-class="active1">点击按下去的效果</view>
+  <view hover-class="active2" hover-start-time="1000">点击后多长时间才出现的效果</view>
+  <view hover-class="active3" hover-stay-time="2000">点击后出现多少毫秒才消失的效果</view>
+  <!-- <view class="box">
+    <view class="item">1</view>
+    <view class="item">2</view>
+    <view class="item">3</view>
+    <view class="item">4</view>
+    <view class="item">5</view>
+  </view> -->
+  <!-- <scroll-view scroll-y class="box">
+    <view class="item">1</view>
+    <view class="item">2</view>
+    <view class="item">3</view>
+    <view class="item">4</view>
+    <view class="item">5</view>
+  </scroll-view> -->
+
+  <icon type="success" />
+  <text>文字----不认识 span 标签-----<span>span的内容</span></text>
+  <rich-text>富文本---里面可以添加标签-----<span>span的内容</span></rich-text>
+</view>
