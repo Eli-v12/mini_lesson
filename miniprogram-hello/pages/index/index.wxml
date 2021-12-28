@@ -18,8 +18,19 @@
     <view class="item">4</view>
     <view class="item">5</view>
   </scroll-view> -->
-
   <icon type="success" />
-  <text>文字----不认识 span 标签-----<span>span的内容</span></text>
-  <rich-text>富文本---里面可以添加标签-----<span>span的内容</span></rich-text>
+  <text>
+    文字----不认识 span 标签-----
+    <span>span的内容</span>
+  </text>
+  <rich-text>
+    富文本---里面可以添加标签-----
+    <span>span的内容</span>
+  </rich-text>
+  <textarea hold-keyboard="{{true}}">
+    <keyboard-accessory class="container" style="height: 50px;">
+      <cover-view bindtap="tap" style="flex: 1; background: green;">1</cover-view>
+      <cover-view bindtap="tap" style="flex: 1; background: red;">2</cover-view>
+    </keyboard-accessory>
+  </textarea>
 </view>
